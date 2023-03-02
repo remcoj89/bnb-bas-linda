@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Reservering bij B&B naam</h2>
+
+  <p>Naam: <%= @booking.name %></p>
+  <p>Aankomst: <%= @booking.start_date %></p>
+  <p>Vertrek: <%= @booking.end_date %></p>
+  <% total_nights = @booking.end_date - @booking.start_date %>
+  <p>Aantal nachten: <%= total_nights %></p>
+</div>
