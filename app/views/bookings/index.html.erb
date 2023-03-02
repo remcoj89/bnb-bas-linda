@@ -1,7 +1,10 @@
 <div class="container">
-<% @bookings.each do |booking| %>
-<p><% booking.name %></p>
-<%= booking.start_date %>
-<%= booking.end_date %>
-<% end %>
+  <% @bookings.each do |booking| %>
+    <p>Naam:     <%= booking.name %></p>
+    <p>Aankomst: <%= booking.start_date %></p>
+    <p>Vertrek:  <%= booking.end_date %></p>
+    <%= link_to "Bekijk boeking", booking_path(booking) %>
+    <%= link_to "Pas boeking aan", edit_booking_path(booking) %>
+    <%= link_to "Delete", booking_path(booking), data: {turbo_method: :delete, turbo_confirm: "Weet je het zeker?"} %>
+  <% end %>
 </div>

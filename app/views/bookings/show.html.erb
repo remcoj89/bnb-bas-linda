@@ -4,6 +4,6 @@
   <p>Naam: <%= @booking.name %></p>
   <p>Aankomst: <%= @booking.start_date %></p>
   <p>Vertrek: <%= @booking.end_date %></p>
-  <% total_nights = @booking.end_date - @booking.start_date %>
-  <p>Aantal nachten: <%= total_nights %></p>
+  <%= link_to "Delete", booking_path(@booking), data: {turbo_method: :delete, turbo_confirm: "Weet je het zeker?"} %>
+
 </div>
