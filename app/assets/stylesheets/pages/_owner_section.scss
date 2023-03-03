@@ -1,0 +1,27 @@
+.owner-container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: solid 1px grey;
+}
+
+.owner-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+    img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.owner-right{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+}
