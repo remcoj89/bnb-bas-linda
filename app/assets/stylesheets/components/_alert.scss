@@ -4,3 +4,17 @@
   right: 16px;
   z-index: 1000;
 }
+
+.cookie-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+}
