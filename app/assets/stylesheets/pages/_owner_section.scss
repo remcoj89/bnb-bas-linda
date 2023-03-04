@@ -1,11 +1,15 @@
 .owner-container {
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
   padding-bottom: 2rem;
   border-bottom: solid 1px grey;
+  .owner-buttons{
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 .owner-left{
