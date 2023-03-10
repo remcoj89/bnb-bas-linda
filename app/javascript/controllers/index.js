@@ -5,10 +5,13 @@
 import { application } from "./application"
 
 import FlatpickrController from "./flatpickr_controller"
-application.register("flatpickr", FlatpickrController)
+application.register("flatpickr", FlatpickrController);
 
 import MessageController from "./message_controller"
-application.register("message_controller", MessageController)
+application.register("message_controller", MessageController);
 
 import NavbarController from "./navbar_controller"
-application.registerActionOption("navbar_contoller", NavbarController)
+application.registerActionOption("navbar_contoller", NavbarController);
+
+import VideoController from "./video_controller"
+application.registerActionOption("video_controller", VideoController);

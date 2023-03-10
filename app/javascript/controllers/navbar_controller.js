@@ -4,7 +4,6 @@ const navBar = document.querySelector('.navbar')
 
 const stickyNav = function (entries) {
   const [entry] = entries;
-  console.log(entry)
   if(!entry.isIntersecting)
   navBar.classList.add('navbar-solid')
   else navBar.classList.remove('navbar-solid');

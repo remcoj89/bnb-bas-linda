@@ -1,0 +1,21 @@
+.button{
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  color: $light-gray;
+  font-weight: 600;
+  &:hover{
+    background-color: $gray;
+  }
+}
+
+
+.primary-button {
+  background-color: $primary;
+  text-decoration: none;
+
+}
+
+.secondary-button{
+  background-color: $secondary;
+  text-decoration: none;
+}
