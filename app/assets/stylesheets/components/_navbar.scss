@@ -16,21 +16,7 @@
   }
 }
 
-.navbar-white{
-  justify-content: space-between;
-  background: rgb(255, 255, 255);
-  position:fixed;
-  top: 0;
-  width: 100vw;
-
-  .navbar-collapse {
-    flex-grow: 0;
-  }
-
-  .navbar-brand img {
-    width: 100px;
-    margin: 0;
-    padding: 0;
-  }
-
+.navbar-solid{
+  background-color:rgb(255, 255, 255) ;
 }
+
