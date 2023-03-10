@@ -1,0 +1,17 @@
+.image-conainer{
+  width: 100%;
+  margin: 2rem 0;
+}
+
+  /* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex:25%; /* IE10 */
+  flex:25%;
+  max-width:25%;
+  padding: 0 4px;
+  img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
